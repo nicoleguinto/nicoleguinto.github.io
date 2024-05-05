@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta char set="utf-8">
+        <title>Cafetal Mini Business</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        
+    </head>
+    <body>
+<nav>
+    
+
+    
+<label class="logo">Cafetal</label>
+<ul class="sidebar">  
+    <li onclick="hideSidebar"()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+    </a></li>
+    <li><a class="active" href="#">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    
+    
+    
+</ul>
+<ul>  
+    <li><a class="active" href="#">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+    
+    
+</ul>
+</nav>
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display ='flex'
+
+    }
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
+<section>
+    <div class="banner-text">
+        <h1>It All Starts With Coffee</h1>
+        <p>Cafetal: Coffee, Milktea, and Chill!</p>
+        <div> 
+            <button type="button"><span></span>Learn More</button>
+        </div>
+        
+        
+    </div>
+</section>
+<section class="about" id="about">
+<div class="text-box">
+    
+    <div class="wrapper">
+    <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t39.30808-6/301524784_573284221250532_951204571775298650_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEjxEZgpv2cXysD0PCEUgiQofAT5j6fEomh8BPmPp8SiflOpgyd8vrUaOx3r1i74gF7PPOCRZt7xS6dSAJssDwo&_nc_ohc=dJi4B4ZNM2wQ7kNvgGJOa_N&_nc_ht=scontent.fmnl25-4.fna&cb_e2o_trans=q&oh=00_AfAvCg0HbhYf9XXnvWQ-xHYx-SZNwB4UsMOcfB-lY1uVRg&oe=66301E42">
+    <h2>About Us</h2>
+    <h1>COFFEE</h1>
+    <p>Hello! Coffee lovers. If you are a person who are addicted to a coffee and want to taste a wonderful blend of a coffee then, this coffee shop is for you.</p>
+
+<h1>PLACE</h1>
+                  <p>  If you are looking for a place that is environmentally friendly, has a nice ambiance, and looks like a garden full of plants, and flowers, this coffee shop is designated for you. 
+                   <br> This coffee shop will serve you a perfect blend of coffee that you will surely enjoy, as well as a place where you will surely relax.
+
+                  </p>
+<h1>TASTE</h1>
+                  <p> Our coffee has a unique taste that  you will surely enjoy. The aroma and blend of our coffee are truly tasty.</p>
+              <h1>CUSTOMER SERVICE</h1>   
+                  <p>Our staff is accommodating and friendly. The price of our coffee is budget-friendly; you can absolutely afford it, and it's worth the price</p>
+                  
+</div>
+
+<div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>1234-Cafetal St.,<br>San Leonardo<br>Nueva Ecija</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>09123456789</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+            <div class="text">
+                <h3>Email</h3>
+                <p>Cafetalcoffee@gmail.com</p>
+            </div>
+        </div>
+            </div>
+        <div class="contactForm">
+            <form>
+                <h2>Send Message</h2>
+                <div class="inputBox">
+                    <input type="text" name=""required="">
+                    <span>Full Name</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name=""required="">
+                    <span>Email</span>
+                </div>
+                <div class="inputBox">
+                    <textarea required="required"></textarea>
+                    <span>Type a message....</span>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" name="" value="Send">
+                </div>
+            </form>
+        </div>
+    </section>
+           
+
+
+
+
+<div class="menu">
+    <div class="heading">
+        <h1>Restaurant Food</h1>
+        <h3>&mdash;Menu&mdash;</h3>
+
+    </div>
+    <div class="food-items">
+        <img src="https://www.tasteofhome.com/wp-content/uploads/2018/08/caramel-brulee-coffee.jpg?resize=400">
+        <div class="details">
+            <div class="details-sub">
+                <h5>Salted Caramel</h5>
+                <h5 class="price">P40</h5>
+        </div>
+        <p>Many people love this flavor of iced coffee.This flavor is our best seller</p>
+        <button>Add to Cart</button>
+        </div>
+    
+</div>
+<div class="food-items">
+    <img src="https://bonjourcoffee.vn/blog/wp-content/uploads/2020/01/capuchino.jpg">
+    <div class="details">
+        <div class="details-sub">
+            <h5>Cappuccino Coffee</h5>
+            <h5 class="price">P40</h5>
+    </div>
+    <p>This is the best Cappuccino Coffee.</p>
+    <button>Add to Cart</button>
+    </div>
+</div>
+    <div class="food-items">
+        <img src="https://www.thereciperebel.com/wp-content/uploads/2018/12/white-chocolate-mocha-www.thereciperebel.com-600-1-of-9.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>Chocolate Mocha Coffee</h5>
+                <h5 class="price">P40</h5>
+        </div>
+        <p>If you're craving Chocolate but want something to drink, this one is for you.</p>
+        <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="food-items">
+        <img src="https://frostingandfettuccine.com/wp-content/uploads/2022/12/Vanilla-Iced-Coffee-5.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>Iced Coffee Vanilla</h5>
+                <h5 class="price">P40</h5>
+        </div>
+        <p>If your favorite flavor of coffee is vanilla, then this is perfect for you.</p>
+        <button>Add to Cart</button>
+        </div>
+    
+</div>
+<div class="food-items">
+    <img src="https://www.dailydiylife.com/wp-content/uploads/2022/08/Iced-Caramel-Macchiato.jpg">
+    <div class="details">
+        <div class="details-sub">
+            <h5> Iced Caramel Macchiato</h5>
+            <h5 class="price">P40</h5>
+    </div>
+    <p>Have you tried our Caramel Macchiato? If you don't, then hurry up and try them now.</p>
+    <button>Add to Cart</button>
+    </div>
+
+</div>
+<div class="food-items">
+        <img src="https://images.ricardocuisine.com/services/recipes/1074x1074_cafe-dalgona-background-2.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>Dalgona Iced Coffee</h5>
+                <h5 class="price">P40</h5>
+        </div>
+        <p>It's a customer favorite and definitely worth a try.</p>
+        <button>Add to Cart</button>
+        </div>
+
+</div>
+
+</body>
+</html>
+
